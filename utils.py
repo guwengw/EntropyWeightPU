@@ -25,9 +25,9 @@ def load_dataset(dataset):
         x_train, t = load_svmlight_file('data/mnist.scale')
         x = x_train.toarray()
         ##t[(t == 2)] = 1 #1-4672  0-8320
-        #t[(t != 1)] = 0
-        t[t == 1] = 100
-        t[t == 3] = 1
+        t[(t != 1)] = 0
+        #t[t == 1] = 100
+        #t[t == 3] = 1
         
         
     elif dataset == "usps":
@@ -37,8 +37,10 @@ def load_dataset(dataset):
         x_test = x_test.toarray()
         x = np.concatenate([x_train, x_test])
         t = np.concatenate([t_train, t_test])
+        #t[t == 1] = 100
+        #t[t == 3] = 0
         t[t == 1] = 1
-        t[t == 3] = 0
+        t[t != 1] = 0
     
     elif dataset == "shuttle":
         x_train, t_train = load_svmlight_file('data/shuttle.scale.txt')
@@ -68,12 +70,14 @@ def load_dataset(dataset):
         t[t == '1'] = 1
         t[t == '0'] = 0
     
-    elif dataset == "optdigits":
-        opt = fetch_openml(name= 'optdigits',version=2)
+   
+        
+    elif dataset == "house":
+        opt = fetch_openml(name= 'houses',version=2)
         x = opt.data
         t = opt.target
         t[t == 'P'] = 1
-        t[t == 'N'] = 0
+        t[t == 'N'] = 0  
         
     elif dataset == "spambase":
         opt = fetch_openml(name= 'spambase')
@@ -81,6 +85,13 @@ def load_dataset(dataset):
         t = opt.target
         t[t == '1'] = 1
         t[t == '0'] = 0
+        
+    elif dataset == "optdigits":
+        opt = fetch_openml(name= 'optdigits',version=2)
+        x = opt.data
+        t = opt.target
+        t[t == 'P'] = 1
+        t[t == 'N'] = 0    
         
     elif dataset == "page":
         opt = fetch_openml(name= 'page-blocks',version=2)
@@ -117,12 +128,7 @@ def load_dataset(dataset):
         t[t == '1'] = 1
         t[t == '2'] = 0
         
-    elif dataset == "house":
-        opt = fetch_openml(name= 'houses',version=2)
-        x = opt.data
-        t = opt.target
-        t[t == 'P'] = 1
-        t[t == 'N'] = 0
+    
     
     elif dataset == "wdbc":
         opt = fetch_openml(name= 'wdbc',version=1)
@@ -138,6 +144,7 @@ def load_dataset(dataset):
         t[t == '1'] = 1
         t[t == '2'] = 0
         
+    t = t.astype('int')
     return x,t
         
     

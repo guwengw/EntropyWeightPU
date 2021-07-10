@@ -8,8 +8,13 @@ Created on Mon Jun 21 20:30:18 2021
 import numpy as np
 from sklearn.svm import SVC
 import utils 
+import codecs
 
-svc = SVC(C=10, kernel='rbf', gamma='auto', probability=True, random_state=2018)
+from sklearn.metrics import f1_score
+
+C = 10
+
+svc = SVC(C, kernel='rbf', gamma='auto', probability=True, random_state=2018)
 
 
 n_unl = 800
@@ -20,9 +25,13 @@ prior = 0.7
 
 trainRate = 0.7
 
+algorithm = "Entropy Weighted SVM"
+
+dataset = "fashion"
 
 
-x,t = utils.load_dataset("shuttle")  
+x,t = utils.load_dataset(dataset)  
+#usps 0-1 ~0-1 0.1
 #shuttle C = 10,lamda 0.0008
 #mushroom 1 3916 0 4208
 #banknote 1 762 0 610
@@ -36,7 +45,7 @@ x,t = utils.load_dataset("shuttle")
 #house 1 8914 0 11726
 #wdbc 1 357 0 212
 
-lambd = 0.0008
+lambd = 0.1
 
 x = utils.dataPreProcess(x)
 
@@ -61,3 +70,9 @@ y_pred = svc.predict(xtest)
 
 errorE = len(np.where((y_pred == ttest ) == False)[0]) 
 errorRateE = errorE / ttest.shape[0]
+
+f1E = f1_score(ttest,y_pred,average = 'micro')
+
+with codecs.open('result.txt',mode='a') as file_txt:
+    file_txt.write(algorithm+'\t'+dataset+'\t'+"prior = "+str(prior)+'\t'+"lambd is "+str(lambd)+'\t'
+                   +"SVM C = "+ str(C)+'\t'+"error = " +str(errorRateE)+'\t'+"F_score is "+str(f1E)+'\n')

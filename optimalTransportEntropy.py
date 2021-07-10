@@ -20,7 +20,7 @@ trainRate = 0.99
 
 
 
-dataset = "fashion"
+dataset = "mushroom"
 
 x,t = utils.load_dataset(dataset)  
 #mushroom 1 3916 0 4208
@@ -34,7 +34,7 @@ x,t = utils.load_dataset(dataset)
 #madelon 1 1300 0 1300
 #house 1 8914 0 11726
 #wdbc 1 357 0 212
-lambd = 0.2
+lambd = 0.1
 
 
 x = utils.dataPreProcess(x)
@@ -55,4 +55,4 @@ entro = utils.computeEntropy(Gs)
 pl.scatter(range(len(entro)), entro, color='r')
 pl.legend([dataset])
 
-pl.axhline(y = 0.5,xmin=0,xmax=1,color='b',linestyle="dashed")
+#pl.axhline(y = 0.5,xmin=0,xmax=1,color='b',linestyle="dashed")

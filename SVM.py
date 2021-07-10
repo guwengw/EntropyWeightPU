@@ -19,7 +19,7 @@ testRate = 0.99
 
 
 
-x,t = utils.load_dataset("wdbc")  
+x,t = utils.load_dataset("fashion")  
 #mushroom 1 3916 0 4208
 #banknote 1 762 0 610
 #optdigits 1 572 0 5048
@@ -55,3 +55,4 @@ y_pred = svc.predict(xtest)
 errorSVM = len(np.where((y_pred == ttest ) == False)[0]) 
 
 errorRateSVM = errorSVM / ttest.shape[0]
+

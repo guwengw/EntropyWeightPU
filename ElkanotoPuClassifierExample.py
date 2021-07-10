@@ -8,22 +8,28 @@ Created on Tue Jun  8 15:38:06 2021
 import numpy as np
 
 from sklearn.svm import SVC
-from pulearn import ElkanotoPuClassifier
+from pulearn import WeightedElkanotoPuClassifier
 
 import utils 
 
-trainRate = 0.9
+trainRate = 0.7
 
-n_unl = 400
+n_unl = 800
 
-n_pos = 200
+n_pos = 400
 
 prior = 0.3
 
+treshold=0.5
+
 estimator = SVC(C=10, kernel='rbf', gamma='auto', probability=True, random_state=2018)
 
+algorithm = "Elkanoto"
+
+dataset = "mushroom"
+
 if __name__ == '__main__':
-    x, t = utils.load_dataset("banknote")
+    x, t = utils.load_dataset(dataset)
     xtrain,xtest,ttrain,ttest = utils.trainTestSpilt(x,t,trainRate)
 
     xtest,ttest = utils.multiClassTest(xtest,ttest)
@@ -34,18 +40,19 @@ if __name__ == '__main__':
     #y = y.astype('int')
     y[np.where(y == 0)[0]] = -1.
 
-    pu_estimator = ElkanotoPuClassifier(estimator, hold_out_ratio=0.2)
+    pu_estimator = WeightedElkanotoPuClassifier(estimator, n_pos,n_unl,hold_out_ratio=0.4)
     pu_estimator.fit(X, y)
     print(pu_estimator)
     print("\nComparison of estimator and PUAdapter(estimator):")
     print("Number of disagreements: {}".format(
         len(np.where((
-            pu_estimator.predict(X) == estimator.predict(X)
+            #pu_estimator.predict(X) == estimator.predict(X)
+            pu_estimator.predict(xtest,treshold) == ttest
         ) == False)[0])  # noqa: E712
     ))
     print("Number of agreements: {}".format(
         len(np.where((
-            pu_estimator.predict(X) == estimator.predict(X)
+            pu_estimator.predict(xtest,treshold) == ttest
         ) == True)[0])  # noqa: E712
     ))
     

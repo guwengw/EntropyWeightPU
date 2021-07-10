@@ -1,0 +1,314 @@
+Weighted Logistic Regression	mushroom	prior = 0.1	error = 0.012305168170631665	F_score is 0.9876948318293683
+Weighted Logistic Regression	mushroom	prior = 0.2	error = 0.013535684987694831	F_score is 0.9864643150123051
+Weighted Logistic Regression	mushroom	prior = 0.3	error = 0.016817063166529943	F_score is 0.98318293683347
+Weighted Logistic Regression	mushroom	prior = 0.4	error = 0.02543068088597211	F_score is 0.9745693191140279
+Weighted Logistic Regression	mushroom	prior = 0.5	error = 0.03609515996718622	F_score is 0.9639048400328137
+Weighted Logistic Regression	mushroom	prior = 0.6	error = 0.06480721903199343	F_score is 0.9351927809680065
+Weighted Logistic Regression	mushroom	prior = 0.7	error = 0.09680065627563576	F_score is 0.9031993437243643
+
+Weighted Logistic Regression	usps	prior = 0.3	error = 0.02043010752688172	F_score is 0.9795698924731183
+Weighted Logistic Regression	usps	prior = 0.5	error = 0.03369175627240143	F_score is 0.9663082437275986
+Weighted Logistic Regression	usps	prior = 0.7	error = 0.05125448028673835	F_score is 0.9487455197132616
+
+Weighted Logistic Regression	shuttle	prior = 0.3	error = 0.11804597701149425	F_score is 0.8819540229885058
+Weighted Logistic Regression	shuttle	prior = 0.5	error = 0.16505747126436782	F_score is 0.8349425287356321
+Weighted Logistic Regression	shuttle	prior = 0.7	error = 0.22626436781609197	F_score is 0.773735632183908
+
+Weighted Logistic Regression	house	prior = 0.3	error = 0.03972226707573066	F_score is 0.9602777329242693
+Weighted Logistic Regression	house	prior = 0.5	error = 0.06539641530760536	F_score is 0.9346035846923947
+Weighted Logistic Regression	house	prior = 0.7	error = 0.09543032455998708	F_score is 0.9045696754400129
+
+Weighted Logistic Regression	spambase	prior = 0.3	error = 0.14047791455467054	F_score is 0.8595220854453295
+Weighted Logistic Regression	spambase	prior = 0.5	error = 0.166545981173063	F_score is 0.833454018826937
+Weighted Logistic Regression	spambase	prior = 0.7	error = 0.19044170890658943	F_score is 0.8095582910934105
+
+Weighted Logistic Regression	mnist	prior = 0.3	error = 0.023944444444444445	F_score is 0.9760555555555556
+Weighted Logistic Regression	mnist	prior = 0.5	error = 0.039	F_score is 0.961
+Weighted Logistic Regression	mnist	prior = 0.7	error = 0.059333333333333335	F_score is 0.9406666666666667
+
+Weighted Logistic Regression	banknote	prior = 0.3	error = 0.0703883495145631	F_score is 0.9296116504854369
+Weighted Logistic Regression	banknote	prior = 0.5	error = 0.12378640776699029	F_score is 0.8762135922330098
+Weighted Logistic Regression	banknote	prior = 0.7	error = 0.1941747572815534	F_score is 0.8058252427184465
+
+
+
+
+Entropy Weighted Logistic Regression	mushroom	prior = 0.3	lambd is 0.1	error = 0.01066447908121411	F_score is 0.9893355209187858
+Entropy Weighted Logistic Regression	mushroom	prior = 0.5	lambd is 0.1	error = 0.01066447908121411	F_score is 0.9893355209187858
+Entropy Weighted Logistic Regression	mushroom	prior = 0.7	lambd is 0.1	error = 0.011484823625922888	F_score is 0.9885151763740772
+
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.01	error = 0.03978494623655914	F_score is 0.9602150537634409
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.0095	error = 0.04086021505376344	F_score is 0.9591397849462365
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.1	error = 0.01935483870967742	F_score is 0.9806451612903225
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.5	error = 0.03476702508960573	F_score is 0.9652329749103943
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.05	error = 0.022222222222222223	F_score is 0.9777777777777777
+Entropy Weighted Logistic Regression	usps	prior = 0.3	lambd is 0.08	error = 0.02007168458781362	F_score is 0.9799283154121864
+Entropy Weighted Logistic Regression	usps	prior = 0.5	lambd is 0.1	error = 0.023297491039426525	F_score is 0.9767025089605734
+Entropy Weighted Logistic Regression	usps	prior = 0.7	lambd is 0.1	error = 0.032974910394265235	F_score is 0.9670250896057347
+
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.1	error = 0.7892528735632184	F_score is 0.21074712643678162
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.001	error = 0.0842528735632184	F_score is 0.9157471264367817
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0007	error = 0.10298850574712644	F_score is 0.8970114942528735
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.002	error = 0.16425287356321838	F_score is 0.8357471264367816
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0008	error = 0.05655172413793103	F_score is 0.9434482758620689
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0009	error = 0.10183908045977011	F_score is 0.8981609195402299
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0007	error = 0.10298850574712644	F_score is 0.8970114942528735
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0008	error = 0.05655172413793103	F_score is 0.9434482758620689
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.001	error = 0.11982758620689656	F_score is 0.8801724137931034
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.0008	error = 0.12149425287356322	F_score is 0.8785057471264368
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.005	error = 0.21827586206896551	F_score is 0.7817241379310345
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.0008	error = 0.12149425287356322	F_score is 0.8785057471264368
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.0009	error = 0.11775862068965517	F_score is 0.8822413793103449
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.00075	error = 0.07591954022988506	F_score is 0.9240804597701149
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.00074	error = 0.07241379310344828	F_score is 0.9275862068965517
+Entropy Weighted Logistic Regression	shuttle	prior = 0.3	lambd is 0.0007	error = 0.04982758620689655	F_score is 0.9501724137931035
+Entropy Weighted Logistic Regression	shuttle	prior = 0.5	lambd is 0.0007	error = 0.07551724137931035	F_score is 0.9244827586206896
+Entropy Weighted Logistic Regression	shuttle	prior = 0.7	lambd is 0.0007	error = 0.10298850574712644	F_score is 0.8970114942528735
+
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.005	error = 0.035523978685612786	F_score is 0.9644760213143873
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.001	error = 0.568706604230583	F_score is 0.4312933957694171
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.004	error = 0.03633134183755853	F_score is 0.9636686581624415
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.003	error = 0.03697723235911513	F_score is 0.9630227676408849
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.002	error = 0.037946068141450025	F_score is 0.9620539318585499
+Entropy Weighted Logistic Regression	house	prior = 0.3	lambd is 0.0015	error = 0.03972226707573066	F_score is 0.9602777329242693
+Entropy Weighted Logistic Regression	house	prior = 0.5	lambd is 0.005	error = 0.03859195866300662	F_score is 0.9614080413369934
+Entropy Weighted Logistic Regression	house	prior = 0.7	lambd is 0.005	error = 0.03907637655417407	F_score is 0.960923623445826
+
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.015	error = 0.13685734974656047	F_score is 0.8631426502534395
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.01	error = 0.15351194786386677	F_score is 0.8464880521361332
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.012	error = 0.14409847936278058	F_score is 0.8559015206372194
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.014	error = 0.1397538015930485	F_score is 0.8602461984069516
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.016	error = 0.1390296886314265	F_score is 0.8609703113685735
+Entropy Weighted Logistic Regression	spambase	prior = 0.3	lambd is 0.0155	error = 0.13685734974656047	F_score is 0.8631426502534395
+Entropy Weighted Logistic Regression	spambase	prior = 0.5	lambd is 0.015	error = 0.14844315713251266	F_score is 0.8515568428674873
+Entropy Weighted Logistic Regression	spambase	prior = 0.7	lambd is 0.015	error = 0.16220130340333092	F_score is 0.8377986965966691
+
+Entropy Weighted Logistic Regression	mnist	prior = 0.3	lambd is 0.1	error = 0.024333333333333332	F_score is 0.9756666666666667
+Entropy Weighted Logistic Regression	mnist	prior = 0.3	lambd is 0.05	error = 0.027055555555555555	F_score is 0.9729444444444444
+Entropy Weighted Logistic Regression	mnist	prior = 0.3	lambd is 0.2	error = 0.022333333333333334	F_score is 0.9776666666666667
+Entropy Weighted Logistic Regression	mnist	prior = 0.3	lambd is 0.5	error = 0.028	F_score is 0.972
+Entropy Weighted Logistic Regression	mnist	prior = 0.3	lambd is 0.3	error = 0.023555555555555555	F_score is 0.9764444444444444
+Entropy Weighted Logistic Regression	mnist	prior = 0.5	lambd is 0.2	error = 0.029833333333333333	F_score is 0.9701666666666666
+Entropy Weighted Logistic Regression	mnist	prior = 0.7	lambd is 0.2	error = 0.049	F_score is 0.951
+
+Entropy Weighted Logistic Regression	banknote	prior = 0.3	lambd is 0.2	error = 0.24271844660194175	F_score is 0.7572815533980582
+Entropy Weighted Logistic Regression	banknote	prior = 0.3	lambd is 0.001	error = 0.03398058252427184	F_score is 0.9660194174757282
+Entropy Weighted Logistic Regression	banknote	prior = 0.5	lambd is 0.001	error = 0.03640776699029126	F_score is 0.9635922330097088
+Entropy Weighted Logistic Regression	banknote	prior = 0.7	lambd is 0.001	error = 0.09951456310679611	F_score is 0.9004854368932039
+
+
+
+Entropy Weighted SVM	mushroom	prior = 0.3	lambd is 0.1	SVM C = 1	error = 0.02871205906480722	F_score is 0.9712879409351928
+Entropy Weighted SVM	mushroom	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.009433962264150943	F_score is 0.9905660377358491
+Entropy Weighted SVM	mushroom	prior = 0.5	lambd is 0.1	SVM C = 10	error = 0.011484823625922888	F_score is 0.9885151763740772
+Entropy Weighted SVM	mushroom	prior = 0.7	lambd is 0.1	SVM C = 10	error = 0.014766201804757998	F_score is 0.985233798195242
+
+Entropy Weighted SVM	usps	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.017204301075268817	F_score is 0.9827956989247312
+Entropy Weighted SVM	usps	prior = 0.5	lambd is 0.1	SVM C = 10	error = 0.017921146953405017	F_score is 0.982078853046595
+Entropy Weighted SVM	usps	prior = 0.7	lambd is 0.1	SVM C = 10	error = 0.04014336917562724	F_score is 0.9598566308243728
+
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0008	SVM C = 10	error = 0.06632183908045977	F_score is 0.9336781609195403
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0007	SVM C = 10	error = 0.13879310344827586	F_score is 0.8612068965517241
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0009	SVM C = 10	error = 0.1345977011494253	F_score is 0.8654022988505747
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0007	SVM C = 10	error = 0.13879310344827586	F_score is 0.8612068965517241
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0008	SVM C = 10	error = 0.06632183908045977	F_score is 0.9336781609195403
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0008	SVM C = 10	error = 0.11281609195402299	F_score is 0.887183908045977
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0007	SVM C = 10	error = 0.0839080459770115	F_score is 0.9160919540229885
+Entropy Weighted SVM	shuttle	prior = 0.5	lambd is 0.0007	SVM C = 10	error = 0.08942528735632184	F_score is 0.9105747126436782
+Entropy Weighted SVM	shuttle	prior = 0.7	lambd is 0.0007	SVM C = 10	error = 0.13879310344827586	F_score is 0.8612068965517241
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0007	SVM C = 1	error = 0.15166666666666667	F_score is 0.8483333333333335
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0008	SVM C = 10	error = 0.11281609195402299	F_score is 0.887183908045977
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0006	SVM C = 10	error = 0.0732183908045977	F_score is 0.9267816091954023
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0005	SVM C = 10	error = 0.07488505747126437	F_score is 0.9251149425287355
+Entropy Weighted SVM	shuttle	prior = 0.3	lambd is 0.0007	SVM C = 10	error = 0.0839080459770115	F_score is 0.9160919540229885
+
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.034232197642499594	F_score is 0.9657678023575004
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.05	SVM C = 10	error = 0.034555142903277894	F_score is 0.9654448570967221
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.01	SVM C = 10	error = 0.03891490392378492	F_score is 0.9610850960762151
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.001	SVM C = 10	error = 0.568706604230583	F_score is 0.4312933957694171
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.005	SVM C = 10	error = 0.041014048118843856	F_score is 0.9589859518811561
+Entropy Weighted SVM	house	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.034232197642499594	F_score is 0.9657678023575004
+Entropy Weighted SVM	house	prior = 0.5	lambd is 0.1	SVM C = 10	error = 0.06491199741643791	F_score is 0.9350880025835621
+Entropy Weighted SVM	house	prior = 0.5	lambd is 0.01	SVM C = 10	error = 0.03859195866300662	F_score is 0.9614080413369934
+Entropy Weighted SVM	house	prior = 0.7	lambd is 0.01	SVM C = 10	error = 0.037300177619893425	F_score is 0.9626998223801065
+
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.015	SVM C = 10	error = 0.15061549601737872	F_score is 0.8493845039826213
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.01	SVM C = 10	error = 0.15785662563359884	F_score is 0.8421433743664011
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.005	SVM C = 10	error = 0.22592324402606806	F_score is 0.7740767559739319
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.001	SVM C = 10	error = 0.5619116582186822	F_score is 0.4380883417813179
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.01	SVM C = 10	error = 0.15785662563359884	F_score is 0.8421433743664011
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.01	SVM C = 1	error = 0.5771180304127443	F_score is 0.4228819695872556
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.1	SVM C = 1	error = 0.40839971035481537	F_score is 0.5916002896451846
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.01	SVM C = 10	error = 0.15785662563359884	F_score is 0.8421433743664011
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.007	SVM C = 10	error = 0.18682114409847936	F_score is 0.8131788559015206
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.015	SVM C = 10	error = 0.15061549601737872	F_score is 0.8493845039826213
+Entropy Weighted SVM	spambase	prior = 0.5	lambd is 0.015	SVM C = 10	error = 0.15930485155684287	F_score is 0.8406951484431573
+Entropy Weighted SVM	spambase	prior = 0.7	lambd is 0.015	SVM C = 10	error = 0.2606806661839247	F_score is 0.7393193338160753
+Entropy Weighted SVM	spambase	prior = 0.7	lambd is 0.01	SVM C = 10	error = 0.47936278059377263	F_score is 0.5206372194062274
+Entropy Weighted SVM	spambase	prior = 0.7	lambd is 0.02	SVM C = 10	error = 0.15858073859522084	F_score is 0.8414192614047792
+Entropy Weighted SVM	spambase	prior = 0.3	lambd is 0.02	SVM C = 10	error = 0.15206372194062273	F_score is 0.8479362780593772
+Entropy Weighted SVM	spambase	prior = 0.5	lambd is 0.02	SVM C = 10	error = 0.1549601737871108	F_score is 0.8450398262128892
+
+Entropy Weighted SVM	mnist	prior = 0.5	lambd is 0.1	SVM C = 10	error = 0.0315	F_score is 0.9685
+Entropy Weighted SVM	mnist	prior = 0.5	lambd is 0.01	SVM C = 10	error = 0.8891666666666667	F_score is 0.11083333333333334
+Entropy Weighted SVM	mnist	prior = 0.3	lambd is 0.2	SVM C = 10	error = 0.022111111111111113	F_score is 0.9778888888888889
+Entropy Weighted SVM	mnist	prior = 0.5	lambd is 0.2	SVM C = 10	error = 0.025055555555555557	F_score is 0.9749444444444444
+Entropy Weighted SVM	mnist	prior = 0.7	lambd is 0.2	SVM C = 10	error = 0.03333333333333333	F_score is 0.9666666666666667
+
+Entropy Weighted SVM	banknote	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.0412621359223301	F_score is 0.9587378640776699
+Entropy Weighted SVM	banknote	prior = 0.3	lambd is 0.001	SVM C = 10	error = 0.019417475728155338	F_score is 0.9805825242718447
+Entropy Weighted SVM	banknote	prior = 0.5	lambd is 0.001	SVM C = 10	error = 0.019417475728155338	F_score is 0.9805825242718447
+Entropy Weighted SVM	banknote	prior = 0.7	lambd is 0.001	SVM C = 10	error = 0.007281553398058253	F_score is 0.9927184466019418
+
+
+
+
+Partial Wasserestein	mushroom	prior = 0.3	estimation_prior = 0.2547307132459971	error = 0.1	F_score is 0.9
+Partial Wasserestein	mushroom	prior = 0.5	estimation_prior = 0.43798024149286496	error = 0.105	F_score is 0.895
+Partial Wasserestein	mushroom	prior = 0.7	estimation_prior = 0.6381625441696113	error = 0.12	F_score is 0.88
+
+Partial Wasserestein	usps	prior = 0.3	estimation_prior = 0.2839160839160839	error = 0.0375	F_score is 0.9625000000000001
+Partial Wasserestein	usps	prior = 0.5	estimation_prior = 0.4995112414467253	error = 0.0275	F_score is 0.9725
+Partial Wasserestein	usps	prior = 0.7	estimation_prior = 0.6765634870499052	error = 0.05	F_score is 0.9500000000000001
+
+Partial Wasserestein	shuttle	prior = 0.3	estimation_prior = 0.22306525037936267	error = 0.1475	F_score is 0.8525
+Partial Wasserestein	shuttle	prior = 0.5	estimation_prior = 0.42920847268673357	error = 0.1375	F_score is 0.8625
+Partial Wasserestein	shuttle	prior = 0.7	estimation_prior = 0.687614399023795	error = 0.0625	F_score is 0.9375
+
+Partial Wasserestein	house	prior = 0.3	estimation_prior = 0.26961483594864477	error = 0.1075	F_score is 0.8925
+Partial Wasserestein	house	prior = 0.5	estimation_prior = 0.4780835881753313	error = 0.095	F_score is 0.905
+Partial Wasserestein	house	prior = 0.7	estimation_prior = 0.6954193932183225	error = 0.0725	F_score is 0.9275
+
+Partial Wasserestein	spambase	prior = 0.3	estimation_prior = 0.2839160839160839	error = 0.1875	F_score is 0.8125
+Partial Wasserestein	spambase	prior = 0.5	estimation_prior = 0.4627492130115425	error = 0.25	F_score is 0.75
+Partial Wasserestein	spambase	prior = 0.7	estimation_prior = 0.6584389593062041	error = 0.245	F_score is 0.755
+
+Partial Wasserestein	mnist	prior = 0.3	estimation_prior = 0.2839160839160839	error = 0.04	F_score is 0.96
+Partial Wasserestein	mnist	prior = 0.5	estimation_prior = 0.48542713567839196	error = 0.045	F_score is 0.955
+Partial Wasserestein	mnist	prior = 0.7	estimation_prior = 0.7075956596230726	error = 0.0325	F_score is 0.9675
+
+Partial Wasserestein	banknote	prior = 0.3	estimation_prior = 0.26961483594864477	error = 0.085	F_score is 0.915
+Partial Wasserestein	banknote	prior = 0.5	estimation_prior = 0.4627492130115425	error = 0.09	F_score is 0.91
+Partial Wasserestein	banknote	prior = 0.7	estimation_prior = 0.6707395498392283	error = 0.1	F_score is 0.9
+
+
+
+
+
+Partial Wasserestein	mushroom	prior = 0.3	true_prior = 0.3	error = 0.0275	F_score is 0.9725
+Partial Wasserestein	mushroom	prior = 0.5	true_prior = 0.5	error = 0.05	F_score is 0.9500000000000001
+Partial Wasserestein	mushroom	prior = 0.7	true_prior = 0.7	error = 0.0675	F_score is 0.9325
+
+Partial Wasserestein	usps	prior = 0.3	true_prior = 0.3	error = 0.0175	F_score is 0.9825
+Partial Wasserestein	usps	prior = 0.5	true_prior = 0.5	error = 0.0275	F_score is 0.9725
+Partial Wasserestein	usps	prior = 0.7	true_prior = 0.7	error = 0.02	F_score is 0.98
+
+Partial Wasserestein	shuttle	prior = 0.3	true_prior = 0.3	error = 0.025	F_score is 0.975
+Partial Wasserestein	shuttle	prior = 0.5	true_prior = 0.5	error = 0.035	F_score is 0.965
+Partial Wasserestein	shuttle	prior = 0.7	true_prior = 0.7	error = 0.0575	F_score is 0.9425
+
+Partial Wasserestein	house	prior = 0.3	true_prior = 0.3	error = 0.06	F_score is 0.94
+Partial Wasserestein	house	prior = 0.5	true_prior = 0.5	error = 0.07	F_score is 0.93
+Partial Wasserestein	house	prior = 0.7	true_prior = 0.7	error = 0.065	F_score is 0.935
+
+Partial Wasserestein	spambase	prior = 0.3	true_prior = 0.3	error = 0.175	F_score is 0.825
+Partial Wasserestein	spambase	prior = 0.5	true_prior = 0.5	error = 0.22	F_score is 0.78
+Partial Wasserestein	spambase	prior = 0.7	true_prior = 0.7	error = 0.195	F_score is 0.805
+
+Partial Wasserestein	mnist	prior = 0.3	true_prior = 0.3	error = 0.025	F_score is 0.975
+Partial Wasserestein	mnist	prior = 0.5	true_prior = 0.5	error = 0.035	F_score is 0.965
+Partial Wasserestein	mnist	prior = 0.7	true_prior = 0.7	error = 0.03	F_score is 0.97
+
+Partial Wasserestein	banknote	prior = 0.3	true_prior = 0.3	error = 0.05	F_score is 0.9500000000000001
+Partial Wasserestein	banknote	prior = 0.5	true_prior = 0.5	error = 0.075	F_score is 0.925
+Partial Wasserestein	banknote	prior = 0.7	true_prior = 0.7	error = 0.075	F_score is 0.925
+
+
+Weighted Logistic Regression	fashion	prior = 0.3	error = 0.04911778731521221	F_score is 0.9508822126847878
+Weighted Logistic Regression	fashion	prior = 0.5	error = 0.11492608488316643	F_score is 0.8850739151168335
+Weighted Logistic Regression	fashion	prior = 0.7	error = 0.1797806390081068	F_score is 0.8202193609918932
+
+Entropy Weighted Logistic Regression	fashion	prior = 0.3	lambd is 0.1	error = 0.022651406771578446	F_score is 0.9773485932284216
+Entropy Weighted Logistic Regression	fashion	prior = 0.5	lambd is 0.1	error = 0.038865045302813546	F_score is 0.9611349546971865
+Entropy Weighted Logistic Regression	fashion	prior = 0.7	lambd is 0.1	error = 0.0653314258464473	F_score is 0.9346685741535526
+
+Entropy Weighted SVM	fashion	prior = 0.3	lambd is 0.1	SVM C = 10	error = 0.013590844062947067	F_score is 0.9864091559370529
+Entropy Weighted SVM	fashion	prior = 0.5	lambd is 0.1	SVM C = 10	error = 0.014544587505960896	F_score is 0.9854554124940391
+Entropy Weighted SVM	fashion	prior = 0.7	lambd is 0.1	SVM C = 10	error = 0.028135431568907965	F_score is 0.971864568431092
+
+Partial Wasserestein	fashion	prior = 0.3	true_prior = 0.3	error = 0.04	F_score is 0.96
+Partial Wasserestein	fashion	prior = 0.5	true_prior = 0.5	error = 0.0575	F_score is 0.9425
+Partial Wasserestein	fashion	prior = 0.7	true_prior = 0.7	error = 0.06	F_score is 0.94
+
+Partial Wasserestein	fashion	prior = 0.3	estimation_prior = 0.26961483594864477	error = 0.0825	F_score is 0.9175
+Partial Wasserestein	fashion	prior = 0.5	estimation_prior = 0.4705274043433299	error = 0.09	F_score is 0.91
+Partial Wasserestein	fashion	prior = 0.7	estimation_prior = 0.6736775015933716	error = 0.1	F_score is 0.9
+
+
+
+SVM	mushroom	prior = 0.3	SVM C = 10	error = 0.020508613617719443	F_score is 0.9794913863822805
+SVM	mushroom	prior = 0.5	SVM C = 10	error = 0.23051681706316654	F_score is 0.7694831829368335
+SVM	mushroom	prior = 0.7	SVM C = 10	error = 0.47662018047579985	F_score is 0.5233798195242002
+
+SVM	usps	prior = 0.3	SVM C = 10	error = 0.008960573476702509	F_score is 0.9910394265232975
+SVM	usps	prior = 0.5	SVM C = 10	error = 0.0910394265232975	F_score is 0.9089605734767026
+SVM	usps	prior = 0.7	SVM C = 10	error = 0.16594982078853046	F_score is 0.8340501792114695
+
+SVM	shuttle	prior = 0.3	SVM C = 10	error = 0.2306896551724138	F_score is 0.7693103448275862
+SVM	shuttle	prior = 0.5	SVM C = 10	error = 0.789367816091954	F_score is 0.21063218390804597
+SVM	shuttle	prior = 0.7	SVM C = 10	error = 0.789367816091954	F_score is 0.21063218390804597
+
+SVM	house	prior = 0.3	SVM C = 10	error = 0.04682706281285322	F_score is 0.9531729371871468
+SVM	house	prior = 0.5	SVM C = 10	error = 0.3431293395769417	F_score is 0.6568706604230583
+SVM	house	prior = 0.7	SVM C = 10	error = 0.4312933957694171	F_score is 0.568706604230583
+
+SVM	spambase	prior = 0.3	SVM C = 10	error = 0.38233164373642287	F_score is 0.6176683562635771
+SVM	spambase	prior = 0.5	SVM C = 10	error = 0.40839971035481537	F_score is 0.5916002896451846
+SVM	spambase	prior = 0.7	SVM C = 10	error = 0.40839971035481537	F_score is 0.5916002896451846
+
+SVM	mnist	prior = 0.3	SVM C = 10	error = 0.015944444444444445	F_score is 0.9840555555555556
+SVM	mnist	prior = 0.5	SVM C = 10	error = 0.058333333333333334	F_score is 0.9416666666666667
+SVM	mnist	prior = 0.7	SVM C = 10	error = 0.11083333333333334	F_score is 0.8891666666666667
+
+SVM	fashion	prior = 0.3	SVM C = 10	error = 0.027896995708154508	F_score is 0.9721030042918455
+SVM	fashion	prior = 0.5	SVM C = 10	error = 0.2804005722460658	F_score is 0.7195994277539342
+SVM	fashion	prior = 0.7	SVM C = 10	error = 0.4990283317991204	F_score is 0.5009716682008796
+
+SVM	banknote	prior = 0.3	SVM C = 10	error = 0.04611650485436893	F_score is 0.9538834951456311
+SVM	banknote	prior = 0.5	SVM C = 10	error = 0.3640776699029126	F_score is 0.6359223300970874
+SVM	banknote	prior = 0.7	SVM C = 10	error = 0.5509708737864077	F_score is 0.44902912621359226
+
+
+
+EN	mushroom	prior = 0.3	error = 0.0165700082850041	F_score is 0.9834299917149959
+EN	mushroom	prior = 0.5	error = 0.014084507042253502	F_score is 0.9859154929577465
+EN	mushroom	prior = 0.7	error = 0.014084507042253502	F_score is 0.9859154929577465
+
+EN	usps	prior = 0.3	error = 0.028230184581976125	F_score is 0.9717698154180239
+EN	usps	prior = 0.5	error = 0.04162142598624685	F_score is 0.9583785740137531
+EN	usps	prior = 0.7	error = 0.0662323561346363	F_score is 0.9337676438653637
+
+EN	shuttle	prior = 0.3	error = 0.062347614071752044	F_score is 0.937652385928248
+EN	shuttle	prior = 0.5	error = 0.09833971902937422	F_score is 0.9016602809706258
+EN	shuttle	prior = 0.7	error = 0.14460698943457562	F_score is 0.8553930105654244
+
+EN	house	prior = 0.3	error = 0.03506196999347688	F_score is 0.9649380300065231
+EN	house	prior = 0.5	error = 0.03669275929549898	F_score is 0.963307240704501
+EN	house	prior = 0.7	error = 0.05022831050228316	F_score is 0.9497716894977168
+
+EN	spambase	prior = 0.3	error = 0.3538011695906432	F_score is 0.6461988304093568
+EN	spambase	prior = 0.5	error = 0.41666666666666663	F_score is 0.5833333333333334
+EN	spambase	prior = 0.7	error = 0.4948830409356725	F_score is 0.5051169590643275
+
+EN	mnist	prior = 0.3	error = 0.03507295173961844	F_score is 0.9649270482603816
+EN	mnist	prior = 0.5	error = 0.05101010101010106	F_score is 0.9489898989898989
+EN	mnist	prior = 0.7	error = 0.07441077441077437	F_score is 0.9255892255892256
+
+EN	fashion	prior = 0.3	error = 0.04821600771456125	F_score is 0.9517839922854388
+EN	fashion	prior = 0.5	error = 0.07015429122468664	F_score is 0.9298457087753134
+EN	fashion	prior = 0.7	error = 0.09281581485053036	F_score is 0.9071841851494696
+
+EN	banknote	prior = 0.3	error = 0.04656862745098034	F_score is 0.9534313725490197
+EN	banknote	prior = 0.3	error = 0.05121293800539084	F_score is 0.9487870619946092
+EN	banknote	prior = 0.5	error = 0.07008086253369272	F_score is 0.9299191374663073
+EN	banknote	prior = 0.7	error = 0.18059299191374667	F_score is 0.8194070080862533
